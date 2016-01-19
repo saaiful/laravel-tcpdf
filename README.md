@@ -43,6 +43,11 @@ PDF::Output('hello_world.pdf');
 ```
 For a list of all available function take a look at the [TCPDF Documentation](http://www.tcpdf.org/doc/code/classTCPDF.html)
 
+```php
+PDF::reset();
+```
+For saving pdf in loop use `PDF::reset();` this before `PDF::SetTitle();`.
+
 ## Configuration
 
 Laravel-TCPDF comes with some basic configuration.
